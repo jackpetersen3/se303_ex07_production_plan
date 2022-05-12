@@ -51,4 +51,15 @@ class ProvinceTest < Minitest::Test
   #   assert(@asia.shortfall.nan?)
   #   assert(@asia.profit.nan?)
   # end
+
+  # def test_province_string_for_producers
+  #   data = Province.new({
+  #     name: 'String producers',
+  #     producers: '',
+  #     demand: 30,
+  #     price: 20
+  #   })
+  #   prov = Province.new(data)
+  #   assert_equal(0, prov.shortfall)
+  # end
 end
